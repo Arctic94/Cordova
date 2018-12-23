@@ -5,7 +5,7 @@ Patients and sesions managment android app, with included interactive and child 
 
 # Features:
   - Google sign-in
-  - Serveless non-relational data base using PouchDB
+  - Serveless non-relational database using PouchDB
   - Direct feedback messaging to a remote server
   - Friendly touch games using Phaser.io v2
   - Material design provided by Framework7 v2
