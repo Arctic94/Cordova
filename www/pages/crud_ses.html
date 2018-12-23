@@ -1,0 +1,76 @@
+<div class="page" data-name="crud_ses" id="crud_ses">
+        <div class="navbar">
+          <div class="navbar-inner sliding">
+            <div class="left">
+              <!--<a href="/" data-force="false" data-ignore-cache="true" class="link back">-->
+                <a href="/" class="link">
+                <i class="icon icon-back"></i>
+                <span class="ios-only">Back</span>
+              </a>
+            </div>
+            <div class="title">Mis Sesiones</div>
+          </div>
+        </div>
+        <div class="page-content">
+<style>
+  .tb_ses{
+    float: left;
+    width:100%;
+  }
+  .tb_ses tbody td{ /*Por defecto*/
+    width:auto;
+  }
+  
+  .tb_ses tbody td:nth-child(2){
+    width:70%;
+    word-break:normal;
+  }
+  </style>
+      
+      
+      <div class="data-table data-table-init card">
+        
+        <div class="card-content">
+          <table id="tb_ses" class="tb_ses" name="tb_ses">
+            <thead>
+              <tr>
+                
+                
+                
+                
+                <th class="label-cell">Fecha</th>
+                <th class="label-cell">Observaciones</th>
+                
+                
+                <th></th>
+              </tr>
+            </thead>
+            <tbody id="tbody_ses">
+              
+              
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+      
+      <div class="row">
+        <div class="col" id="rendimiento">
+            <div class="block-title">Rendimiento</div>
+          <canvas id="gauge" style="width: 100% !important; height: auto !important;" ></canvas>
+        </div>
+        <div class="col">
+            <div class="block-title">Recomendación</div>
+            <div class="block">
+          <div class="card demo-card-header-pic">
+            <div style="background-image:url(texturas/h1/h1.JPG); height: 12vw; color: #fff; background-size: cover;
+            background-position: center;" class="card-content card-content-padding align-items-flex-end"></div>
+            
+            <div class="card-footer"><a href="#" name="juego" id="h1" value="h1" class="link">Reconocimiento de animales</a></div>
+          </div>
+        </div>
+      </div>
+      </div>
+         
+      </div>
+      </div>

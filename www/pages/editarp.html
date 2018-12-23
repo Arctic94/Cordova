@@ -1,0 +1,126 @@
+
+
+<div class="page" data-name="editarp" id="editarp">
+  <div class="navbar">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Editar paciente</div>
+    </div>
+  </div>
+  <div class="page-content">
+    <!--<div class="block-title">Form Example</div>  action="/pages/nuevo_paciente.html" method="GET" class="form-ajax-submit"   -->
+    <form  class="list" id="form-editar-paciente" >
+      <div class="list no-hairlines-md">
+        <ul>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">RUT Paciente</div>
+                <div class="item-input-wrap">
+                  <input type="text" required validate pattern="[0-9]*[kK]{0,1}" disabled maxlength="9" data-error-message="Formato: 12345678k" id="rut"  name="rut" placeholder="Sin puntos o guión 12345678k"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Nombre y apellido</div>
+                <div class="item-input-wrap">
+                  <input type="text" required validate pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" maxlength="50" id="nombre_pac" name="nombre_apellido" placeholder="Nombre Apellido"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Edad</div>
+                <div class="item-input-wrap">
+                  <input type="number" validate  name="fecha_nac" />
+  
+  
+  
+                  
+                </div>
+              </div>
+            </div>
+          </li>
+          
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">RUT Responsable</div>
+                <div class="item-input-wrap">
+                  <input type="text" id="rut_res" required validate pattern="[0-9]*[kK]{0,1}" maxlength="9" name="rut_res" placeholder="Sin puntos ni guion"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Nombre Responsable</div>
+                <div class="item-input-wrap">
+                  <input type="text" required validate pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" id="nombre_apellido_res" name="nombre_apellido_res" maxlength="50" placeholder="Juan Pérez"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Correo electrónico</div>
+                <div class="item-input-wrap">
+                    <input type="email" validate name="email" maxlength="40" placeholder="E-mail"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content item-input">
+              <div class="item-inner">
+                <div class="item-title item-label">Teléfono</div>
+                <div class="item-input-wrap">
+                  <input type="tel" validate name="telefono" maxlength="20" placeholder="Fijo o móvil"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+              <div class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-title item-label">Antecedentes médicos previos</div>
+                    <div class="item-input-wrap">
+                      <textarea name="antecedentes_previos" validate maxlength="255" placeholder="Observaciones o diagnóstico previo del paciente"></textarea>
+                    </div>
+                  </div>
+                </div>
+          </li>
+          
+    </div>
+  
+</form>
+<div class="col"><a class="button convert-form-to-data" id="update_p" href="#">Guardar cambios</a></div>
+  <div>
+    <div class="block">
+      <p>
+         <!-- <a  class="button button-big button-raised button-fill convert-form-to-data" href="#"  >Completar Registro</a> -->
+
+          
+        </p>
+      </div>
+          <!--<div class="col"><a class="button fill-form-from-data" href="#">Fill Form</a></div>-->
+          
+
+          
+</div>
+</div>
+</div>
+
+

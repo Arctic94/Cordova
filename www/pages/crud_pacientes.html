@@ -1,0 +1,64 @@
+<div class="page" data-name="crudp" id="crudp">
+  <div class="navbar">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <!--<a href="/" data-force="false" data-ignore-cache="true" class="link back">-->
+          <a href="/" class="link" data-ignore-cache="true">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Mis Pacientes</div>
+    </div>
+  </div>
+  <div class="page-content">
+
+<style>
+  .tb_p{
+  float: left;
+  width:100%;
+}
+.tb_p tbody td{ /*Por defecto*/
+  width:auto;
+}
+
+.tb_p tbody td:nth-last-child(2){
+  width:50%;
+  word-break:normal;
+}
+</style>
+
+<div class="data-table data-table-init card">
+  
+  <div class="card-content">
+    <table id="tcrudp" class="tb_p" name="tcrudp" >
+      <thead>
+        <tr>
+
+          <th>
+            <span class="table-head-label">RUT paciente</span>
+          <div class="input" style="width: auto">
+            <input id="rut_filter" name="rut_filter" type="text" placeholder="Filtrar RUT">
+          </div>
+          </th>
+          <th class="label-cell">Nombre paciente</th>
+          <th class="label-cell">Nombre responsable</th>
+          <th class="label-cell">Antecedentes</th>
+       
+          
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tbody_crudp">
+        
+        
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+</div>
+</div>
